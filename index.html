@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test Web Star</title>
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/main.css">
+	<!-- <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet"> -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+
+	<div id="container">
+		<header>
+			<div class="block1">
+				<div class="block-logo">
+					<a href="#"><img src="img/logo.png" alt=""></a>
+					<h6>Интернет-магазин «Благой арт»</h6>
+				</div>
+				<div class="block-search">
+					<form action="">
+						<input type="text" id="search" name="search" placeholder="Введите название или артикул">
+						<input type="submit" name="submit" id="submit" value="">
+					</form>
+				</div>
+				<div class="block-info">
+					<a href="tel:+78007078139"><h3>+7 (800) 707-81-39</h3></a>
+					<div class="info">
+						<h6 style="color: #cb944c;">ПН-ПТ с 9:00 до 18:00</h6> <!-- #747688 -->
+						<h6 style="color: #2b3056;">Доставка по РФ и СНГ</h6> <!-- #2b3056 -->
+					</div>
+				</div>
+			</div>
+			<div class="block2">
+				<div class="block-menu">
+					<img src="img/icon-menu.png" alt="" id="active-mini-menu">
+					<ul id="nav">
+						<li class="down-menu"><a href="#"><h4>Каталог товаров</h4></a>
+							<ul class="dm" style="display: none;">
+								<li class="right-menu right-menu1"><a href="#"><h5>Свадебная бижутерия</h5></a>
+									<ul class="rm1" style="display: none;">
+										<li><h4>Свадебная бижутерия</h4></li>
+										<li><a href="#"><h5>Свадебная</h5></a></li>
+										<li><a href="#"><h5>Бижутерия</h5></a></li>
+									</ul>
+								</li>
+								<li><a href="#"><h5>Аксесуары для волос</h5></a></li>
+								<li><a href="#"><h5>Броши</h5></a></li>
+								<li class="right-menu right-menu1"><a href="#"><h5>Мужские аксессуары</h5></a>
+									<ul class="rm1" style="display: none;">
+										<li><h4>Мужская бижутерия</h4></li>
+										<li><a href="#"><h5>Браслеты</h5></a></li>
+										<li><a href="#"><h5>Кулоны</h5></a></li>
+										<li><a href="#"><h5>Зажимы и запонки</h5></a></li>
+									</ul>
+								</li>
+								<li><a href="#"><h5>Клатчи</h5></a></li>
+								<li><a href="#"><h5>Детская бижутерия</h5></a></li>
+								<li><a href="#"><h5>Демонстрационное оборудование</h5></a></li>
+							</ul>
+						</li>
+						<li><a href="#"><h4>Условия работы</h4></a></li>
+						<li><a href="#"><h4>Скидки</h4></a></li>
+						<li><a href="#"><h4>Оплата и доставка</h4></a></li>
+						<li><a href="#"><h4>Документы</h4></a></li>
+						<li><a href="#"><h4>Контакты</h4></a></li>
+					</ul>
+				</div>
+				<div class="block-basket">
+					<a href="#"><img src="img/icon-basket.png" alt=""></a>
+					<div class="count">
+						<h6>10</h6>
+					</div>
+					<a href="#"><h6 class="product">ТОВАРОВ / 56 789 Р</h6></a>
+				</div>
+				<div class="block-user">
+					<a href="#">
+						<img src="img/icon-user.png" alt="">
+						<h4 style="color: #252a54">ВОЙТИ</h4>
+					</a>
+					
+				</div>
+			</div>
+		</header>
+		<div id="header-mobile">
+			<ul class="menu-mobile">
+				<li class="drop-mobile-menu"><img src="img/mobi/drop-menu-icon.png" alt="">
+					<ul id="nav-mobile" class="dm" style="display: none;">
+						<li class="right-menu right-menu1"><a href="#"><h5>Каталог товаров</h5></a>
+							<ul class="rm1" style="display: none;">
+								<li class="right-menu right-menu2"><a href="#"><h5>Свадебная бижутерия</h5></a>
+									<ul class="rm2" style="display: none;">
+										<li><h4>Свадебная бижутерия</h4></li>
+										<li><a href="#"><h5>Свадебная</h5></a></li>
+										<li><a href="#"><h5>Бижутерия</h5></a></li>
+									</ul>
+								</li>
+								<li><a href="#"><h5>Аксесуары для волос</h5></a></li>
+								<li><a href="#"><h5>Броши</h5></a></li>
+								<li class="right-menu right-menu2"><a href="#"><h5>Мужские аксессуары</h5></a>
+									<ul class="rm2" style="display: none;">
+										<li><h4>Мужская бижутерия</h4></li>
+										<li><a href="#"><h5>Браслеты</h5></a></li>
+										<li><a href="#"><h5>Кулоны</h5></a></li>
+										<li><a href="#"><h5>Зажимы и запонки</h5></a></li>
+									</ul>
+								</li>
+								<li><a href="#"><h5>Клатчи</h5></a></li>
+								<li><a href="#"><h5>Детская бижутерия</h5></a></li>
+								<li><a href="#"><h5>Демонстрационное оборудование</h5></a></li>
+							</ul>
+						</li>
+						<li><a href="#"><h5>Условия работы</h5></a></li>
+						<li><a href="#"><h5>Скидки</h5></a></li>
+						<li><a href="#"><h5>Оплата и доставка</h5></a></li>
+						<li><a href="#"><h5>Документы</h5></a></li>
+						<li><a href="#"><h5>Контакты</h5></a></li>
+					</ul>
+				</li>
+				<li><a href="#"><img src="img/mobi/home-icon.png" alt=""></a></li>
+				<li><a href="#"><img src="img/mobi/search-icon.png" alt=""></a></li>
+				<li><a href="#"><img src="img/mobi/basket-icon.png" alt=""></a></li>
+				<li><a href="#"><img src="img/mobi/user-icon.png" alt=""></a></li>
+				<li><a href="tel:+78007078139"><img src="img/mobi/phone-icon.png" alt=""></a></li>
+			</ul>
+			<div class="logo-mobile">
+				<img src="img/mobi/mobi-logo.png" alt="">
+				<span>Интернет-магазин «Благой арт»</span>
+			</div>
+		</div>
+		<div id="block-slider">
+			<div class="block-new">
+				<h2>Новая коллекция SWAROVSKI уже здесь!</h2>
+			</div>
+			<div class="slider">
+				<div><img src="img/slider-img1.jpg" alt=""></div>
+				<div><img src="img/slider-img3.jpg" alt=""></div>
+				<div><img src="img/slider-img4.jpg" alt=""></div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

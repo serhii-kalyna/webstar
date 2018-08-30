@@ -1,0 +1,222 @@
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list
+{
+    background: #fff url('./ajax-loader.gif') center center no-repeat;
+}
+
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('./fonts/slick.eot');
+    src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
+}
+
+.slider2 .slick-prev,
+.slider2 .slick-next,
+.slider .slick-prev,
+.slider .slick-next
+{
+    display: none!important;
+}
+
+/* Arrows slider3 */
+.slider3 .slick-prev,
+.slider3 .slick-next{
+    background: url(../images/icons/sp-arrows-icon.jpg) no-repeat;
+    width: 3px;
+    height: 13px;
+    cursor: pointer;
+    border: none;
+    color: transparent;
+    top: -49px;
+    position: absolute;
+}
+
+.slider3 .slick-prev{
+    background-position: left;
+    right: -9px;
+}
+
+.slider3 .slick-next{
+    background-position: right;
+    right: -16px;
+}
+.slider3 .slick-prev:hover,
+.slider3 .slick-next:hover{
+    opacity: .5;
+}
+
+/* Dots slider1*/ 
+.slider .slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slider .slick-dots
+{
+    position: absolute;
+    display: block;
+    width: 220px;
+    padding: 0;
+    margin-top: 372px;
+    margin-left: 1039px;
+    list-style: none;
+}
+.slider .slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slider .slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slider .slick-dots li button:hover,
+.slider .slick-dots li button:focus
+{
+    outline: none;
+}
+.slider .slick-dots li button:hover:before,
+.slider .slick-dots li button:focus:before
+{
+    background: url(../images/slider-btn-active.jpg);
+}
+.slider .slick-dots li button:before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 26px;
+    height: 6px;
+
+    content: '';
+    background: url(../images/slider-btn-norm.jpg);
+    text-align: center;
+
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slider .slick-dots li.slick-active button:before
+{
+    background: url(../images/slider-btn-active.jpg);
+}
+
+/* Dots slider2 */
+.slider2 .slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slider2 .slick-dots
+{
+    position: absolute;
+
+    display: block;
+    top: -60px;
+    background-color: #fff;
+
+    width: 50px;
+    padding-top: 12px;
+    padding-left: 8px;
+    margin-top: 0;
+    margin-left: 510px;
+    list-style: none;
+}
+.slider2 .slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: -4px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slider2 .slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slider2 .slick-dots li button:hover,
+.slider2 .slick-dots li button:focus
+{
+    outline: none;
+}
+.slider2 .slick-dots li button:hover:before,
+.slider2 .slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slider2 .slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 8px;
+    line-height: 10px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slider2 .slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}

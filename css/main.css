@@ -661,7 +661,9 @@ span {
     #container #block-slider .slick-next {
       margin-top: -8em; }
     #container #block-slider ul.slick-dots {
-      display: none; } }
+      display: none !important; }
+      #container #block-slider ul.slick-dots button {
+        display: none; } }
 
 @media screen and (max-width: 640px), only screen and (max-device-width: 640px) {
   #container #header-mobile ul.menu-mobile > li > ul#nav-mobile .right-menu > ul > li > ul > {
@@ -683,7 +685,7 @@ span {
     #container #block-slider .slick-prev {
       margin-top: 1.7em; }
     #container #block-slider .slick-next {
-      margin-top: -6.8em; }
+      margin-top: -6.8em; } }
 
 @media screen and (max-width: 320px), only screen and (max-device-width: 320px) {
   #container #header-mobile ul.menu-mobile > li > ul#nav-mobile .right-menu > ul {
